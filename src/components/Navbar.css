@@ -1,0 +1,42 @@
+.navbar {
+    height:80px;
+    background-color: #060b26;
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+
+.nav-menu {
+    background-color: #060b26;
+    width:250px;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top:0;
+    left: -100%;
+}
+.nav-menu.active {
+    left:0;
+}
+.nav-text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding:8px;
+    height:60px;
+    list-style: none;
+}
+.nav-menu-items {
+    width: 100%;
+}
+.nav-toggle {
+    background-color: #060b26;
+    width:100%;
+    height:80px;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+

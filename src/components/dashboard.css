@@ -1,0 +1,116 @@
+.header-container{
+    background-color: #4d4d4d;
+    color: white;
+    display: flex;
+    padding: 12px;
+    justify-content: space-between;
+}
+
+.heading{
+    margin-right: 5px;
+}
+
+.header-inner{
+    display: flex;
+    align-items: center;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+.main-body{
+    width: 100%;
+}
+
+.menu-bars{
+    width: 20%;
+    height: 100%;
+    background-color: #333333;
+    color: grey;
+    font-size: 18px;
+}
+
+.list{
+    list-style: none;
+}
+
+.li-style{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.box {
+    height:80px;
+    width:100px;
+    padding: 60px;
+    display: flex;
+    margin: 5px;
+    margin-right: 20px;
+    font-size: 12px;
+    
+}
+
+
+table, th, td {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    height: 42px;
+    text-align: left;
+    padding: 0 10px;
+  }
+
+table{
+    width: 100%;
+  }
+
+tr{
+    width: 50%;
+}
+.table-container{
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.price-heading{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.status-container{
+    display: flex;
+}
+
+.request-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    width: 100%;
+    background: #fcb900;
+    border-radius: 5px;
+    color: white;
+    margin: 10px;
+}
+
+.status{
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.details{
+    border-top: 1px solid grey;
+    padding: 10px;
+}
+
+.blue{
+    background-color: #0288d1;
+}
+
+.green{
+    background-color: #388e3c;
+}
+
+.red{
+    background-color: #d32f2f;
+}

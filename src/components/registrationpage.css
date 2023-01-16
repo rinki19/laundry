@@ -1,0 +1,32 @@
+.registration-container {
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .title {
+    text-align: center;
+    width:30vw;
+    background-color:rgb(190,164,214);
+    padding:2vw 1vw;
+    border-radius: 10px;
+    font-size:2rem;
+    font-family: "sans-serif";
+  }
+  .App{
+    text-align: center;
+    display:flex;
+    flex-direction:column;
+    margin: auto;
+  
+  }
+  input {
+    margin:5px;
+    padding:1vw;
+    border-radius:10px;
+    border:1px solid;
+  }
+  .element {
+    text-align: center;
+    margin-top: 5px;
+  }
